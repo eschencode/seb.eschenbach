@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import bg from '$lib/assets/images/bg-1.png';
+	import bg from '$lib/assets/images/bg-1.jpg';
 	import HomeNav from '$lib/HomeNav.svelte';
 
 	onMount(() => {
