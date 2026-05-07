@@ -35,9 +35,9 @@ export const actions: Actions = {
 		const toEmail = env?.CONTACT_TO_EMAIL;
 		const fromEmail = env?.CONTACT_FROM_EMAIL ?? 'onboarding@resend.dev';
 
-		console.log('[kontakt] apiKey:', apiKey ? '✓ set' : '✗ missing');
-		console.log('[kontakt] toEmail:', toEmail ? `✓ ${toEmail}` : '✗ missing');
-		console.log('[kontakt] fromEmail:', JSON.stringify(fromEmail));
+		//console.log('[kontakt] apiKey:', apiKey ? '✓ set' : '✗ missing');
+		//console.log('[kontakt] toEmail:', toEmail ? `✓ ${toEmail}` : '✗ missing');
+		//console.log('[kontakt] fromEmail:', JSON.stringify(fromEmail));
 
 		if (!apiKey || !toEmail) {
 			console.error('[kontakt] Env vars missing', { apiKey, toEmail });
