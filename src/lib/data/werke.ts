@@ -10,12 +10,13 @@ export interface Werk {
 
 export const werke: Werk[] = [
 	{
-		slug: 'birken',
-		title: 'Birken',
-		year: 2023,
-		technique: 'Öl auf Leinwand',
-		dimensions: '80 × 100 cm',
-		image: '/Ausstellung-Birken.jpeg'
+		slug: 'Bei Gerswalde',
+		title: 'Bei Gerswalde',
+		year: 2025,
+		technique: 'Öl auf MDF',
+		dimensions: '40 × 60 cm',
+		//price: 200€,
+		image: '/landschaft.jpg'
 	},
 	{
 		slug: 'im-wald',

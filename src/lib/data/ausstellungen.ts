@@ -13,14 +13,13 @@ export interface Ausstellung {
 
 export const ausstellungen: Ausstellung[] = [
 	{
-		slug: 'sommerlicht',
-		title: 'Sommerlicht',
-		location: 'Galerie im Hafen, Lychen',
-		dateFrom: 'Juni 2025',
-		dateTo: 'August 2025',
+		slug: 'Om Sommeren',
+		title: 'Om Sommeren',
+		location: 'Eis Bahn Hof, Warnitz',
+		dateFrom: '1. Mai 2026',
+		dateTo: '27. Juni 2026',
 		image: '/OmSommerren-Aussellung.jpeg',
-		description:
-			'Neue großformatige Ölgemälde aus der Uckermark — Licht und Weite des Nordens.',
+		description: 'Sommerbilder aus der Uckermark.',
 		isCurrent: true
 	},
 	{
@@ -30,8 +29,7 @@ export const ausstellungen: Ausstellung[] = [
 		dateFrom: 'März 2023',
 		dateTo: 'April 2023',
 		image: '/Ausstellung-Birken.jpeg',
-		description:
-			'Eine Werkschau der Birkenlandschaften — vertraute Motive in wechselndem Licht.'
+		description: 'Eine Werkschau der Birkenlandschaften — vertraute Motive in wechselndem Licht.'
 	},
 	{
 		slug: 'im-wald',
@@ -40,8 +38,7 @@ export const ausstellungen: Ausstellung[] = [
 		dateFrom: 'September 2022',
 		dateTo: 'Oktober 2022',
 		image: '/Ausstellung-ImWald.jpeg',
-		description:
-			'Ölgemälde und Zeichnungen aus dem Wald — das Innehalten zwischen den Bäumen.'
+		description: 'Ölgemälde und Zeichnungen aus dem Wald — das Innehalten zwischen den Bäumen.'
 	},
 	{
 		slug: 'dominikanerkloster',
