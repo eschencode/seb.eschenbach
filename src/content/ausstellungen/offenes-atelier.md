@@ -1,9 +1,9 @@
 ---
-slug: offenes-atelier
 title: Offenes Atelier
+slug: offenes-atelier
 location: Atelier S. Eschenbach, Uckermark
-dateFrom: Oktober 2020
-dateTo: Oktober 2020
+dateFrom: 2. Mai 2026
+dateTo: 3. Mai 2026
 image: /OffenesAtelier.jpeg
 ---
 
