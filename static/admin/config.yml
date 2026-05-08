@@ -2,10 +2,11 @@ backend:
   name: github
   repo: eschencode/seb.eschenbach
   branch: main
+  base_url: https://sveltia-cms-auth.linuseschenbach.workers.dev
+
 
 # Lokaler Entwicklungsmodus — startet mit: npx @sveltia/cms-proxy-server
 local_backend: false
-base_url: https://sveltia-cms-auth.linuseschenbach.workers.dev
 
 
 media_folder: static/uploads
