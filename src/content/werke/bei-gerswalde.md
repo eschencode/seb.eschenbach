@@ -1,9 +1,9 @@
 ---
+title: Sommer am Feldrain
 slug: bei-gerswalde
-title: Bei Gerswalde
 year: 2025
 technique: Öl auf MDF
-dimensions: 40 × 60 cm
+dimensions: 45 × 70 cm
 image: /landschaft.jpg
 ---
 
