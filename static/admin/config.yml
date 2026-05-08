@@ -4,7 +4,9 @@ backend:
   branch: main
 
 # Lokaler Entwicklungsmodus — startet mit: npx @sveltia/cms-proxy-server
-local_backend: true
+local_backend: false
+base_url: https://sveltia-cms-auth.linuseschenbach.workers.dev
+
 
 media_folder: static/uploads
 public_folder: /uploads
