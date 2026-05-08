@@ -1,6 +1,6 @@
 ---
+title: Im Wald alec
 slug: im-wald
-title: Im Wald
 year: 2022
 technique: Öl auf Leinwand
 dimensions: 70 × 90 cm
