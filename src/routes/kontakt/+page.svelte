@@ -162,7 +162,6 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		gap: 3rem;
-		flex-grow: 0;
 	}
 
 	.section-label {

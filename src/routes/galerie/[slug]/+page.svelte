@@ -1,9 +1,34 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
 	let { werk, prev, next } = $derived(data);
+
+	function handleKeydown(e: KeyboardEvent) {
+		if (e.key === 'ArrowLeft' && prev) goto(`/galerie/${prev.slug}`);
+		if (e.key === 'ArrowRight' && next) goto(`/galerie/${next.slug}`);
+	}
+
+	let touchStartX = 0;
+
+	function handleTouchStart(e: TouchEvent) {
+		touchStartX = e.touches[0].clientX;
+	}
+
+	function handleTouchEnd(e: TouchEvent) {
+		const diff = touchStartX - e.changedTouches[0].clientX;
+		if (Math.abs(diff) < 50) return;
+		if (diff > 0 && next) goto(`/galerie/${next.slug}`);
+		if (diff < 0 && prev) goto(`/galerie/${prev.slug}`);
+	}
+
+	onMount(() => {
+		window.addEventListener('keydown', handleKeydown);
+		return () => window.removeEventListener('keydown', handleKeydown);
+	});
 </script>
 
 <svelte:head>
@@ -15,7 +40,7 @@
 
 <PageHeader />
 
-<main>
+<main ontouchstart={handleTouchStart} ontouchend={handleTouchEnd}>
 	<div class="artwork">
 		<img src={werk.image} alt={werk.title} class="artwork-img" />
 
