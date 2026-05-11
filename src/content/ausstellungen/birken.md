@@ -4,7 +4,7 @@ slug: birken
 location: El Papa Café Hemingway; Swinoujscie; Poland
 dateFrom: 16. März 2026
 dateTo: 01.April 2026
-image: /Ausstellung-Birken.jpeg
+image: /Ausstellung-Birken.webp
 orientation: portrait
 ---
 

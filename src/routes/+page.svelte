@@ -13,7 +13,7 @@
 <svelte:head>
 	<title>S. Eschenbach — Malerei</title>
 	<meta name="description" content="Portfolio der Malerin S. Eschenbach" />
-	<link rel="preload" as="image" href="/bg-1.jpg" />
+	<link rel="preload" as="image" href="/bg-1.webp" />
 </svelte:head>
 
 <div class="frame">

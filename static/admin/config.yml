@@ -28,7 +28,7 @@ collections:
       - { label: Jahr, name: year, widget: number, value_type: int }
       - { label: Technik, name: technique, widget: string, hint: "z.B. Öl auf Leinwand" }
       - { label: Maße, name: dimensions, widget: string, hint: "z.B. 40 × 60 cm" }
-      - { label: Bild, name: image, widget: image }
+      - { label: Bild, name: image, widget: image, hint: "Bitte vor dem Upload in WebP konvertieren und auf max. 1600px Breite verkleinern (z.B. squoosh.app). Max. 500 KB." }
       - { label: Status, name: status, widget: string, required: false, hint: "z.B. Verfügbar, Verkauft, Reserviert" }
       - { label: Preis, name: price, widget: string, required: false, hint: "z.B. 1.200 €" }
       - { label: Beschreibung, name: body, widget: markdown, required: false }
@@ -48,7 +48,7 @@ collections:
       - { label: Ort, name: location, widget: string }
       - { label: Von, name: dateFrom, widget: string, hint: "z.B. 1. Mai 2026" }
       - { label: Bis, name: dateTo, widget: string, hint: "z.B. 27. Juni 2026" }
-      - { label: Bild, name: image, widget: image }
+      - { label: Bild, name: image, widget: image, hint: "Bitte vor dem Upload in WebP konvertieren und auf max. 1600px Breite verkleinern (z.B. squoosh.app). Max. 500 KB." }
       - label: Ausrichtung
         name: orientation
         widget: select
@@ -67,8 +67,8 @@ collections:
         file: src/content/pages/vita.md
         format: yaml-frontmatter
         fields:
-          - { label: Portraitbild, name: portrait, widget: image }
-          - { label: Pressebild, name: pressImage, widget: image }
+          - { label: Portraitbild, name: portrait, widget: image, hint: "Bitte vor dem Upload in WebP konvertieren (z.B. squoosh.app). Max. 500 KB." }
+          - { label: Pressebild, name: pressImage, widget: image, hint: "Bitte vor dem Upload in WebP konvertieren (z.B. squoosh.app). Max. 500 KB." }
           - { label: Biografie, name: body, widget: markdown }
       - name: kontakt_page
         label: Kontakt Seite

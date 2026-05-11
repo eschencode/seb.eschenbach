@@ -4,7 +4,7 @@ slug: neuruppin
 location: Neuruppin
 dateFrom: September 2024
 dateTo: Oktober 2024
-image: /uploads/Unknown-1.jpeg
+image: /uploads/Unknown-1.webp
 orientation: portrait
 isCurrent: false
 ---

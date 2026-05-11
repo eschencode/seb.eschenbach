@@ -4,7 +4,7 @@ slug: im-wald
 location: Rathaus Angermünde
 dateFrom: 23. Januar 2025
 dateTo: 13. März 2025
-image: /Ausstellung-ImWald.jpeg
+image: /Ausstellung-ImWald.webp
 orientation: portrait
 ---
 
