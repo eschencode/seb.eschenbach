@@ -4,8 +4,11 @@
 </script>
 
 <svelte:head>
-	<title>Galerie — S. Eschenbach</title>
-	<meta name="description" content="Werkübersicht der Malerin S. Eschenbach" />
+	<title>Galerie — Sebastian Eschenbach, Maler aus der Uckermark</title>
+	<meta name="description" content="Werkübersicht von Sebastian Eschenbach: Ölgemälde, Zeichnungen und Aquarelle — Birken, Wälder und Felder der Uckermark in Brandenburg." />
+	<meta property="og:title" content="Galerie — Sebastian Eschenbach" />
+	<meta property="og:description" content="Ölgemälde, Zeichnungen und Aquarelle der Uckermark." />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <PageHeader />

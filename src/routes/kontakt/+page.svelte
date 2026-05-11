@@ -42,8 +42,11 @@
 </script>
 
 <svelte:head>
-	<title>Kontakt — Sebastian Eschenbach</title>
-	<meta name="description" content="Kontakt zum Maler Sebastian Eschenbach" />
+	<title>Kontakt — Sebastian Eschenbach, Maler aus der Uckermark</title>
+	<meta name="description" content="Kontakt zum Maler Sebastian Eschenbach aus der Uckermark. Anfragen zu Werken, Ausstellungen und Kooperationen." />
+	<meta property="og:title" content="Kontakt — Sebastian Eschenbach" />
+	<meta property="og:description" content="Kontakt zum Maler Sebastian Eschenbach aus der Uckermark." />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <PageHeader />

@@ -4,8 +4,11 @@
 </script>
 
 <svelte:head>
-	<title>Vita — S. Eschenbach</title>
-	<meta name="description" content="Lebenslauf der Malerin S. Eschenbach" />
+	<title>Vita — Sebastian Eschenbach, Maler aus der Uckermark</title>
+	<meta name="description" content="Sebastian Eschenbach lebt und malt seit über zwanzig Jahren in der Uckermark. Biografie, künstlerischer Werdegang und Pressematerial." />
+	<meta property="og:title" content="Vita — Sebastian Eschenbach" />
+	<meta property="og:description" content="Biografie und künstlerischer Werdegang des Malers Sebastian Eschenbach aus der Uckermark." />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <PageHeader />

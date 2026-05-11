@@ -32,10 +32,12 @@
 </script>
 
 <svelte:head>
-	<title>{werk.title} — S. Eschenbach</title>
-	<meta name="description" content="{werk.title}, {werk.year}. {werk.technique}, {werk.dimensions}" />
-	<meta property="og:title" content="{werk.title} — S. Eschenbach" />
-	<meta property="og:image" content={werk.image} />
+	<title>{werk.title} ({werk.year}) — Sebastian Eschenbach</title>
+	<meta name="description" content="{werk.title} ({werk.year}) — {werk.technique}, {werk.dimensions}. Werk des Malers Sebastian Eschenbach aus der Uckermark, Brandenburg." />
+	<meta property="og:title" content="{werk.title} — Sebastian Eschenbach" />
+	<meta property="og:description" content="{werk.title} ({werk.year}), {werk.technique}, {werk.dimensions}." />
+	<meta property="og:image" content="https://sebastian-eschenbach.de{werk.image}" />
+	<meta property="og:type" content="article" />
 </svelte:head>
 
 <PageHeader />

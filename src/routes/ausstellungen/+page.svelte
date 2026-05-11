@@ -8,8 +8,11 @@
 </script>
 
 <svelte:head>
-	<title>Ausstellungen — S. Eschenbach</title>
-	<meta name="description" content="Ausstellungen der Malerin S. Eschenbach" />
+	<title>Ausstellungen — Sebastian Eschenbach, Maler</title>
+	<meta name="description" content="Ausstellungen des Malers Sebastian Eschenbach: Landschaftsmalerei der Uckermark im Dominikanerkloster Prenzlau, Rathaus Angermünde, Kunstpavillon Neuruppin und weiteren Orten." />
+	<meta property="og:title" content="Ausstellungen — Sebastian Eschenbach" />
+	<meta property="og:description" content="Aktuelle und vergangene Ausstellungen des Malers Sebastian Eschenbach aus der Uckermark." />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <PageHeader />

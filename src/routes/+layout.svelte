@@ -10,6 +10,19 @@
 
 <svelte:head>
 	<link rel="icon" href={signIcon} type="image/png" />
+	<script type="application/ld+json">{JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Sebastian Eschenbach",
+		"jobTitle": "Maler",
+		"description": "Maler aus der Uckermark, Brandenburg. Großformatige Landschaftsmalerei in Öl, Zeichnung und Aquarell.",
+		"url": "https://sebastian-eschenbach.de",
+		"address": {
+			"@type": "PostalAddress",
+			"addressRegion": "Uckermark",
+			"addressCountry": "DE"
+		}
+	})}</script>
 </svelte:head>
 
 {@render children()}

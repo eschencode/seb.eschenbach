@@ -11,13 +11,17 @@
 </script>
 
 <svelte:head>
-	<title>S. Eschenbach — Malerei</title>
-	<meta name="description" content="Portfolio der Malerin S. Eschenbach" />
+	<title>Sebastian Eschenbach — Maler aus der Uckermark</title>
+	<meta name="description" content="Sebastian Eschenbach ist Maler und lebt seit über zwanzig Jahren in der Uckermark. Großformatige Ölgemälde, Zeichnungen und Aquarelle der brandenburgischen Landschaft." />
+	<meta property="og:title" content="Sebastian Eschenbach — Maler aus der Uckermark" />
+	<meta property="og:description" content="Großformatige Ölgemälde, Zeichnungen und Aquarelle der brandenburgischen Landschaft." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://sebastian-eschenbach.de" />
 	<link rel="preload" as="image" href="/bg-1.webp" />
 </svelte:head>
 
 <div class="frame">
-	<div class="hero" style:background-image="url(/bg-1.jpg)">
+	<div class="hero" style:background-image="url(/bg-1.webp)">
 		<HomeNav />
 	</div>
 </div>
