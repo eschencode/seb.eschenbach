@@ -54,7 +54,7 @@
 		font-size: 0.72rem;
 		letter-spacing: 0.18em;
 		text-transform: uppercase;
-		color: #888;
+		color: #666;
 		margin-bottom: 1.5rem;
 		padding-bottom: 0.75rem;
 		border-bottom: 1px solid var(--color-border);

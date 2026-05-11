@@ -12,10 +12,17 @@
 
 <main>
 	<div class="grid">
-		{#each werke as werk}
+		{#each werke as werk, i}
 			<a href="/galerie/{werk.slug}" class="card">
 				<div class="img-wrap">
-					<img src={werk.image} alt={werk.title} loading="lazy" />
+					<img
+						src={werk.image}
+						alt={werk.title}
+						width="4"
+						height="3"
+						loading={i < 4 ? 'eager' : 'lazy'}
+						fetchpriority={i === 0 ? 'high' : undefined}
+					/>
 					<div class="overlay">
 						<span class="overlay-title">{werk.title}</span>
 						<span class="overlay-year">{werk.year}</span>
@@ -116,7 +123,7 @@
 		font-family: var(--font-mono);
 		font-size: 0.68rem;
 		letter-spacing: 0.1em;
-		color: #888;
+		color: #666;
 	}
 
 	@media (max-width: 480px) {

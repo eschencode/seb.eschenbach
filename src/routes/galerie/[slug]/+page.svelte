@@ -42,7 +42,7 @@
 
 <main ontouchstart={handleTouchStart} ontouchend={handleTouchEnd}>
 	<div class="artwork">
-		<img src={werk.image} alt={werk.title} class="artwork-img" />
+		<img src={werk.image} alt={werk.title} class="artwork-img" width="1200" height="900" fetchpriority="high" />
 
 		<div class="meta">
 			<dl>
@@ -147,7 +147,7 @@
 		font-size: 0.68rem;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: #888;
+		color: #666;
 		padding-top: 0.1rem;
 	}
 

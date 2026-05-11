@@ -76,7 +76,7 @@
 		font-family: var(--font-mono);
 		font-size: 0.68rem;
 		letter-spacing: 0.2em;
-		color: #888;
+		color: #666;
 		padding-bottom: 0.75rem;
 		border-bottom: 1px solid var(--color-border);
 	}
@@ -85,7 +85,7 @@
 		font-family: var(--font-mono);
 		font-size: 0.68rem;
 		letter-spacing: 0.12em;
-		color: #888;
+		color: #666;
 		text-transform: uppercase;
 		margin-bottom: 0.75rem;
 	}

@@ -23,7 +23,14 @@
 	<div class="card" class:is-flipped={flipped}>
 		<!-- Front: exhibition photo -->
 		<div class="face front">
-			<img src={ausstellung.image} alt={ausstellung.title} loading="lazy" />
+			<img
+					src={ausstellung.image}
+					alt={ausstellung.title}
+					width={isPortrait ? 2 : 3}
+					height={isPortrait ? 3 : 2}
+					loading={featured ? 'eager' : 'lazy'}
+					fetchpriority={featured ? 'high' : undefined}
+				/>
 			<span class="flip-hint">
 				<span class="flip-hint-icon" aria-hidden="true">↺</span>
 			</span>
